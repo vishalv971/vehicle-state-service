@@ -12,11 +12,11 @@ The Vehicle State Service is a Node.js application that provides an API to retri
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/vishalv971/vehicle-state-service.git
+`git clone https://github.com/vishalv971/vehicle-state-service.git`
 
 2. Install dependencies:
-cd vehicle-state-service
-npm install
+`cd vehicle-state-service`
+`npm install`
 
 3. Set up the PostgreSQL database:
     - Create a new database.
@@ -34,7 +34,7 @@ Replace the values with your actual PostgreSQL credentials and connection detail
 ### Running the Application
 
 To start the server, run the following command:
-npm start
+`npm start`
 
 The server will start running on `http://localhost:3001` (or the port specified in the environment variables).
 
