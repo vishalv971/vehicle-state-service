@@ -19,8 +19,7 @@ The Vehicle State Service is a Node.js application that provides an API to retri
 `npm install`
 
 3. Set up the PostgreSQL database:
-    - Create a new database.
-    - Execute the SQL commands in the `database.sql` file to create the necessary tables and seed data.
+    - Run the `docker compose up` from the provided Database (by motorway)
 
 4. Create a `.env` file in the root directory and add the following environment variables:
 DB_USER=your_username
